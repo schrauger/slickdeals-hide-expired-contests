@@ -1,6 +1,12 @@
 # slickdeals-hide-expired-contests
 Slickdeals - Hide expired contests
 
+This script parses through the user submitted titles to find dates.
+If the contest date is in the past, the contest has ended (since the
+general rule is to put the end date in the title).
+If it has expired, then this script will hide that link, meaning
+the list will only show valid current contests.
+
 ## Installation Instructions
 
 The easiest way to install the script is to first have [GreaseMonkey][greasemonkey] ([Firefox][gm_firefox]) or [TamperMonkey][tampermonkey] ([Chrome][tm_chrome], [Safari][tm_safari], [Opera][tm_opera]). If you have those addons installed already, simply [open the script][script] and follow the prompts to install it.
